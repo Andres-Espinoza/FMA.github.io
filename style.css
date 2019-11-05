@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+/*--- Navigation --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img {
+    height: 2rem;
+ display: inline-block;
+}
+.navbar-brand img:hover {
+ opacity: .9;
+ background-color: white;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nnav .navbar-link{
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1EBBA3
+}
+/*-- Landing Page ---*/
+.home-inner{
+  background-image:url(https://lh5.googleusercontent.com/p/AF1QipODOr1pWCW9jfYy0Zj-HW70EadD70cE6dAV1HN2=w1200-h642-p-k-no);
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+text-shadow: 1px 1px 2px black;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+
+
